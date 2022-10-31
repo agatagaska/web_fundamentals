@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+</head>
+<body>
+    <div class="container">
+
+	<div class="header">
+		<a href="index.html"><img src="./assets/photo/newag.png" class="photoheader" alt="logo"></a>
+	</div>
+	
+	<div class="menubar">
+		<ul class="bar active">
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+    <div class="fromdiv">
+        <form action="GET">
+
+            <label for="firname">First Name</label>
+            <input type="text" id="firname" name="firstname" placeholder="Your name">
+        
+            <label for="lasname">Last Name</label>
+            <input type="text" id="lasname" name="lastname" placeholder="Your last name">
+        
+            <label for="country">Service</label>
+            <select id="country" name="country">
+              <option value="Networking">Networking</option>
+              <option value="UTM">UTM</option>
+              <option value="VPN">VPN</option>
+            </select>
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your questions..." style="height:220px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+
+	<div class="footer">
+		<p>Created by Agata Gaska</p>
+	</div>
+
+</div>
+</body>
+</html>
